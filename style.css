@@ -10,6 +10,13 @@ img{
 
 }
 
+.meescrolimg img{
+	width: 100%;
+	position: fixed;
+
+
+}
+
 .hoofdtitel{
 	font-size: 40pt;
 	width: 200pt;
