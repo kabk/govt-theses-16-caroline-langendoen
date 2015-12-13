@@ -10,11 +10,6 @@ img{
 
 }
 
-.meescrolimg img{
-	width: 100%;
-	position: fixed;
-
-
 }
 .filter {
     width: 100%;
@@ -24,7 +19,7 @@ img{
 .base {
     width: 100%;
     height: 100%;
-    font-size: 80px;
+    //font-size: 80px;
     background: -webkit-linear-gradient(-45deg, pink 0%,pink 50%,black 51%,black 100%);
     -webkit-background-clip: text;
     color: transparent;
@@ -39,41 +34,3 @@ img{
 	//background-color: pink;
 }
 
-.inleiding{
-	width: 200pt;
-	margin-top: 300pt;
-	float: left;
-	//background-color: yellow;
-	margin-left: 10pt;
-}
-
-.inleiding2{
-	width: 200pt;
-	//margin-top: 300pt;
-	position: absolute;
-	float: left;
-	//background-color: gray;
-	margin-right: 10pt;
-	text-indent: 20pt;
-}
-
-.inleiding3{
-	width: 200pt;
-	margin-top: 400pt;
-	float: left;
-	//background-color: red;
-	margin-left: 20pt;
-	text-indent: -15pt;
-	color:pink;
-}
-
-.inleiding4{
-	width: 200pt;
-	margin-top: 300pt;
-	float: left;
-	//background-color: red;
-	margin-left: 20pt;
-	text-indent: -15pt;
-	text-align: justify;
-	word-wrap: break-word;
-}
