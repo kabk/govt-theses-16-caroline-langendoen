@@ -1,79 +1,97 @@
 body{
-	font-family: "Courier New", Courier, monospace;
-	font-size: 12pt;
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+
+
+}
+h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	border: 0;
 
 }
 
-img{
-	width: 300px;
-	height: auto;
-
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
 }
 
-.meescrolimg img{
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+color: pink;
+}
+
+.pagewrapper{
 	width: 100%;
-	position: fixed;
-
-
-}
-.filter {
-    width: 100%;
-    height: 100%;
-    background: -webkit-linear-gradient(-45deg, pink 0%,black 50%,white 51%,white 100%);
-}
-.base {
-    width: 100%;
-    height: 100%;
-    font-size: 80px;
-    background: -webkit-linear-gradient(-45deg, pink 0%,pink 50%,black 51%,black 100%);
-    -webkit-background-clip: text;
-    color: transparent;
-}
-.hoofdtitel{
-	font-size: 40pt;
-	width: 200pt;
-	text-align: center;
-	position: fixed;
-	padding-left: 50%;
-	padding-right: 50%;
-	//background-color: pink;
+	padding: 0%;
 }
 
-.inleiding{
-	width: 200pt;
-	margin-top: 300pt;
-	float: left;
+.page{
+	height: 680px;
+	width: 2650px;
 	//background-color: yellow;
-	margin-left: 10pt;
 }
 
-.inleiding2{
-	width: 200pt;
-	//margin-top: 300pt;
-	position: absolute;
-	float: left;
-	//background-color: gray;
-	margin-right: 10pt;
-	text-indent: 20pt;
+.titel{
+	width: 1100px;
+	height: 640px;
+	margin-left: 80px;
+	float:left;
+	//background-color: green;
+	padding-top: 20px;
+
+}
+.titel h2{
+	text-align: center;
+	font-size: 80pt;
+	font-weight: 700;
+	//line-height: 70pt;
 }
 
-.inleiding3{
-	width: 200pt;
-	margin-top: 400pt;
+.menu{
+	width: 400px;
+	height:600px;
+	font-size: 9pt;
+	margin-top:30px;
+	margin-left: 200px;
 	float: left;
-	//background-color: red;
-	margin-left: 20pt;
-	text-indent: -15pt;
-	color:pink;
+	//background-color: red;	
+	font-weight: 700;
+	line-height: 30px;
 }
 
-.inleiding4{
-	width: 200pt;
-	margin-top: 300pt;
+.description{
+	font-size: 9pt;
+	line-height: 20px;
+}
+
+.tussentitel{
+	-webkit-transform: rotate(-90deg);
+	font-size: 60pt;
+	float:left;
+	margin-top: 300px;
+	//background-color: pink;
+	margin-left: -30px;
+
+}
+.inleiding{
+	height: 600px;
+	width: 450px;
+	margin-top:40px;
+	//background-color: pink;
 	float: left;
-	//background-color: red;
-	margin-left: 20pt;
-	text-indent: -15pt;
-	text-align: justify;
-	word-wrap: break-word;
+	margin-left: -50px;
+
+}
+
+.inleiding h3{
+	font-size: 11pt;
+	text-align: left;
+	font-weight: 400, italic;
 }
