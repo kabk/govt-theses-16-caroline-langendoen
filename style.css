@@ -93,5 +93,119 @@ color: pink;
 .inleiding h3{
 	font-size: 11pt;
 	text-align: left;
-	font-weight: 400, italic;
+	font-weight: 400;
 }
+.pageH{
+	height: 600px;
+	width: 3005px;
+	//background-color: yellow;
+}
+
+.menuH{
+	width: 400px;
+	height:600px;
+	font-size: 9pt;
+	margin-top:80px;
+	margin-left: 20px;
+	//background-color: red;	
+	font-weight: 700;
+	line-height: 30px;
+	position: fixed;
+
+}
+
+.descriptionH{
+	height:60px;
+	font-size: 9pt;
+	margin-top: 8px;
+	font-weight:700;
+	float:left;
+	margin-left: 20px;
+}
+
+.tussentitelH1{
+	-webkit-transform: rotate(-90deg);
+	font-size: 50pt;
+	float:left;
+	margin-top: 300px;
+	//background-color: pink;
+	margin-left: 400px;
+}
+
+.kolom1{
+ 	float: left;
+ 	height: 600px;
+	width: 400px;
+	margin-top:80px;
+	margin-right: 130px;
+	font-size: 12pt;
+}
+
+.kolom2{
+ 	float: left;
+ 	height: 600px;
+	width: 400px;
+	margin-top:80px;
+	margin-right: 130px;
+	font-size: 11.4pt;
+}
+.kolom3{
+ 	float: left;
+ 	height: 600px;
+	width: 400px;
+	margin-top:80px;
+	margin-right: 130px;
+	font-size: 11pt;
+}
+
+
+
+
+.pageH2{
+	height: 600px;
+	width: 4005px;
+	//background-color: yellow;
+}
+
+.tussentitelH2{
+	-webkit-transform: rotate(-90deg);
+	font-size: 50pt;
+	float:left;
+	margin-top: 230px;
+	//background-color: pink;
+	margin-left: 350px;
+}
+
+.kolom1H2{
+ 	float: left;
+ 	height: 600px;
+	width: 800px;
+	margin-right: 130px;
+	font-size: 80pt;
+}
+
+.kolom2H2{
+ 	float: left;
+ 	height: 600px;
+	width: 800px;
+	margin-right: 130px;
+	font-size: 80pt;
+}
+.kolom3H2{
+ 	float: left;
+ 	height: 600px;
+	width: 800px;
+	margin-right: 130px;
+	font-size: 80pt;
+}
+
+
+
+
+
+
+
+
+
+
+
