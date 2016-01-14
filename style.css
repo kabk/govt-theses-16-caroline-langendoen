@@ -69,8 +69,7 @@ img{
 	font-size: 9pt;
 	margin-top:30px;
 	margin-left: 200px;
-	float: left;
-	//background-color: red;	
+	float: left;	
 	font-weight: 700;
 	line-height: 30px;
 }
@@ -117,7 +116,7 @@ img{
 	height: 600px;
 	width: 4005px;
 	margin-top: 80px;
-	//background-color: yellow;
+	
 }
 
 .menuH{
@@ -194,8 +193,8 @@ img{
 
 .pageH2{
 	height: 600px;
-	width: 4005px;
-	//background-color: yellow;
+	width: 2505px;
+	margin-top: 80px;
 }
 
 .tussentitelH2{
@@ -204,7 +203,7 @@ img{
 	float:left;
 	margin-top: 230px;
 	//background-color: pink;
-	margin-left: 350px;
+	margin-left: 850px;
 }
 
 .kolom1H2{
@@ -216,11 +215,28 @@ img{
 }
 
 
+.pageH4{
+	height: 600px;
+	width: 4005px;
+	margin-top: 80px;
+}
 
+.tussentitelH4{
+	-webkit-transform: rotate(-90deg);
+	font-size: 50pt;
+	float:left;
+	margin-top: 150px;
+	//background-color: pink;
+	margin-left: 850px;
+}
 
-
-
-
+.kolom1H4{
+ 	float: left;
+ 	height: 600px;
+	width: 950px;
+	margin-right: 130px;
+	font-size: 70pt;
+}
 
 
 
