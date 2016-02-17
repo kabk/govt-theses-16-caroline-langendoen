@@ -120,26 +120,51 @@ img{
 }
 .pageH{
 	height: 600px;
-	width: 4000px;
+	width: 3800px;
 	margin-top: 80px;
 	position: absolute;
 	float: left;
 	
 }
 
+.header{
+	width: 100%;
+	height: 40px;
+	margin-top: -90px;
+
+}
+.descriptionH{
+	height:60px;
+	width: 1000px;
+	font-size: 9pt;
+	font-weight:700;
+	float:left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
 .achtergrondafb img {
 	width: auto;
 	height: 600px;
-	//position: relative;
+	position: relative;
 	opacity: 0.5;
 	float: left;
-	margin-left: 50%;
+	margin-left: 1800px;
+	margin-top: 120px;
+}
+.xxx{
+	width: 200px;
+	padding-left: 33%;
+	float: left;
 }
 
-.xxx{
-	margin-left: 50%;
-	font-size: 80px;
-	margin-top: -90px;
+.xxx img{
+	width:200px;
+	position: relative;
+}
+.xxx a:hover{
+	background-color: #0F0;
+
 }
 
 .menuH{
@@ -155,15 +180,11 @@ img{
 
 }
 
-.descriptionH{
-	height:60px;
-	font-size: 9pt;
-	margin-top: -60px;
-	font-weight:700;
-	float:left;
-	margin-left: 20px;
-}
 
+.inhoud{
+	margin-top: 100px;
+
+}
 .tussentitelH1{
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);	
@@ -185,7 +206,7 @@ img{
 	margin-right: 40px;
 	font-size: 12pt;
 	line-height: 15pt;
-	text-align: justify;
+	//text-align: justify;
 }
 .kolom1afb{
 	width:300px;
@@ -203,7 +224,7 @@ img{
 	width: 400px;
 	font-size: 11pt;
 	margin-right: 40px;
-	text-align: justify;
+	//text-align: justify;
 }
 .kolom3{
  	float: left;
@@ -212,7 +233,7 @@ img{
 	//margin-top:80px;
 	margin-right: 40px;
 	font-size: 10pt;
-	text-align: justify;
+	//text-align: justify;
 }
 
 .pageH2{
