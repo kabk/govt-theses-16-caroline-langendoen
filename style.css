@@ -24,7 +24,7 @@ a {
 }
 
 a:hover{
-color: pink;
+color: #0F0;
 }
 
 sup{
@@ -45,6 +45,8 @@ img{
 	height: 680px;
 	width: 2650px;
 	//background-color: yellow;
+	float:left;
+
 }
 
 .titel{
@@ -81,6 +83,10 @@ img{
 
 .tussentitel{
 	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);	
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	font-size: 60pt;
 	float:left;
 	margin-top: 300px;
@@ -114,14 +120,31 @@ img{
 }
 .pageH{
 	height: 600px;
-	width: 4005px;
+	width: 4000px;
 	margin-top: 80px;
+	position: absolute;
+	float: left;
 	
+}
+
+.achtergrondafb img {
+	width: auto;
+	height: 600px;
+	//position: relative;
+	opacity: 0.5;
+	float: left;
+	margin-left: 50%;
+}
+
+.xxx{
+	margin-left: 50%;
+	font-size: 80px;
+	margin-top: -90px;
 }
 
 .menuH{
 	width: 400px;
-	height:600px;
+	height:auto;
 	font-size: 9pt;
 	//margin-top:80px;
 	margin-left: 20px;
@@ -143,9 +166,13 @@ img{
 
 .tussentitelH1{
 	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);	
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	font-size: 50pt;
 	float:left;
-	margin-top: 220px;
+	margin-top: 5%;
 	//background-color: pink;
 	margin-left: 850px;
 }
@@ -188,9 +215,6 @@ img{
 	text-align: justify;
 }
 
-
-
-
 .pageH2{
 	height: 600px;
 	width: 2505px;
@@ -199,6 +223,10 @@ img{
 
 .tussentitelH2{
 	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);	
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	font-size: 50pt;
 	float:left;
 	margin-top: 230px;
@@ -223,6 +251,10 @@ img{
 
 .tussentitelH4{
 	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);	
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	font-size: 50pt;
 	float:left;
 	margin-top: 150px;
@@ -238,6 +270,30 @@ img{
 	font-size: 70pt;
 }
 
+#container {
+    margin: -8px -5px -5px -8px;
+    width: 100%;
+    height: 100%;
+    position: fixed;    
+    z-index: 0;
 
+}
+#videoElement {
+    width: 100%;
+    height: auto;
+    
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+
+}
+
+#videoElement, .pagewrapper {
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #000
+}
 
 
