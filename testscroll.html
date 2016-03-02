@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src='js/jquery.scrollto.js'></script>
+
+
+<style type="text/css">
+
+
+#sidebar {
+    width:300px;
+    float:left;
+}
+
+#content {
+    width:724px;
+    float:right;
+    padding-left:24px;
+}
+
+
+/* navigation */
+nav {
+    width:300px;
+    background-color:rgb(240,240,240);
+    border:solid 1px rgb(220,220,220);
+    padding:0 12px;
+}
+
+nav.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    margin-top:12px;
+}
+
+
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+nav li {
+
+}
+
+nav li a {
+    color:rgb(50,50,50);
+    font-weight:700;
+}
+
+a.nav-active {
+    color:#ccc;
+}
+
+
+
+hr {
+    border:none;
+    background-color:rgb(220,220,220);
+    height:12px;
+    margin-bottom:18px;
+}
+
+.page{
+	width: 300px;
+
+}
+
+
+
+
+
+
+</style>
+
+
+</head>
+
+<body>
+		
+
+		<div id="sidebar">
+            <div id="nav-anchor"></div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div><!-- /sidebar -->
+
+
+      <div class="page">  
+        <div id="home">
+                <h1>Home</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                    volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                    molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+                    eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+                    zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber
+                    tempor cum soluta nobis eleifend option congue nihil imperdiet doming id
+                    quod mazim placerat facer possim assum.
+                </p>
+            
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                    volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                    molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+                    eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+                    zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber
+                    tempor cum soluta nobis eleifend option congue nihil imperdiet doming id
+                    quod mazim placerat facer possim assum.
+                </p>
+            </div>
+        
+        
+            <div id="about">
+                <h1>About</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                    volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                    molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+                    eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+                    zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber
+                    tempor cum soluta nobis eleifend option congue nihil imperdiet doming id
+                    quod mazim placerat facer possim assum.
+                </p>
+            
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                    volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                    molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+                    eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+                    zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber
+                    tempor cum soluta nobis eleifend option congue nihil imperdiet doming id
+                    quod mazim placerat facer possim assum.
+                </p>
+            </div>
+        
+        
+            <div id="services">
+                <h1>Services</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                    volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                    molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+                    eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+                    zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber
+                    tempor cum soluta nobis eleifend option congue nihil imperdiet doming id
+                    quod mazim placerat facer possim assum.
+                </p>
+            
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                    volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                    molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+                    eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+                    zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber
+                    tempor cum soluta nobis eleifend option congue nihil imperdiet doming id
+                    quod mazim placerat facer possim assum.
+                </p>
+            </div>
+           </div> 
+
+
+
+
+	</body>
+
+
+	</html>
