@@ -445,8 +445,7 @@ body{
 
 		  h6{
 		  	font-size: 80%;
-		  	position: static;
-		  	float:right;
+		  	display: inline;
 		  	color: #0F0;
 		 
 
@@ -484,12 +483,12 @@ body{
 		  }
 
 		 .panel,.flip{
-		 	float:right;
 		 	padding-bottom: 5px;
-		 	padding-right: 40px;
-		 	
-		
 			}
+
+		.flip{
+			display: inline;
+		}	
 
 		.panel
 			{
