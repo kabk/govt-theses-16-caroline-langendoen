@@ -1,0 +1,36 @@
+@page {
+    size: A4;
+    margin-left: 25mm;
+    margin-bottom:25mm;
+    margin-top:10mm;
+}
+
+.header{
+
+
+}
+
+.menu{
+	display: none;
+}
+
+.parallax_allcontent{
+	width: auto; 
+	border: 0; 
+	margin: 0 5%; 
+	padding: 0; 
+	float: none; 
+	color: black; 
+	background: transparent; 
+
+}
+
+body { 
+	background: white; 
+	font-size: 12pt; 
+	font-family: ‘Times New Roman’, Times, serif;
+}
+
+ body { font: 9pt/1.5 Arial, sans-serif; }
+
+ 'HelveticaNeueLTPro-BdCn','HelveticaNeueW01-77BdCn_692722', sans-serif;
