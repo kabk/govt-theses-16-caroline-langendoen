@@ -46,6 +46,16 @@ body{
 		    bottom: 0;
 		  }
 
+		 .parallax_proloog {
+		    -webkit-transform: translateZ(-2px) scale(3);
+		    transform: translateZ(-2px) scale(3);
+		 	padding-top: 35%;
+		 	padding-left: 80%;
+
+		  } 
+
+
+
 		.parallax_inleidingtitel {
 		    -webkit-transform: translateZ(-4px) scale(5);
 		    transform: translateZ(-4px) scale(5);
@@ -225,14 +235,25 @@ body{
 		  }
 
 
+
+		   .proloog {
+		    position: absolute;
+		    -webkit-transform: translate(-50%, -50%);
+		    transform: translate(-50%, -50%);
+		    font-family:"Courier New", Courier, monospace;
+		    font-size: 8pt;
+			text-align: right;
+		    width: 300px;
+		   
+		  }
+
 		.titleinl {
 		    position: absolute;
 		    -webkit-transform: translate(-50%, -50%);
 		    transform: translate(-50%, -50%);
 		    font-family: ‘Times New Roman’, Times, serif;
 		  	font-weight: 400;
-		  	font-size: 120px;
-		  	
+		  	font-size: 120px;	
 
 		  }
 
