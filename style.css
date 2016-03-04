@@ -16,6 +16,7 @@ body{
 		  	width: 100%;
 		  	padding-top: 7px;
 		  	z-index: 100;
+
 		  }
 		  .menu{
 		  	width: 150px;
@@ -23,7 +24,7 @@ body{
 		  	float:left;
 		  	margin-left: 10px;
 		  	margin-top: 5%;
-		  	z-index: 100;
+		  	z-index: 1000;
 
 		  }
 
