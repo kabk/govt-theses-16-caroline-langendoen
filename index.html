@@ -29,6 +29,14 @@
 			});
 		</script>
 
+		<script type="text/javascript">
+				function printTrigger(elementId) {
+			    var getMyFrame = document.getElementById(elementId);
+			    getMyFrame.focus();
+			    getMyFrame.contentWindow.print();
+			}
+		</script>
+
 	</head>
 
 	<body>
@@ -53,8 +61,11 @@
 					<li><a href="#hoofdstuk9">Hoofdstuk 9</a></li>
 					<li><a href="conclusie.html">Conclusie</a></li>
 					<li><a href="abstract.html">Abstract</a></li>
-					<li><a href="bronnen.html">Bronnenlijst ABC</a></li>
-					<li><a href="" onClick="window.print ()" value="print">Print Scriptie</a></li>
+					<li><a href=onclick="printTrigger('iFramePdf');"value="Print"/>Print Thesis</a></li>
+					<iframe id="iFramePdf" src="pdfThesis.pdf" style="display:none;"></iframe>
+
+
+
 				</ul>		
 			</div>	
 				
