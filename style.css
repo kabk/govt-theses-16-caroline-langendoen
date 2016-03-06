@@ -35,9 +35,10 @@ body{
 		    height: 100vh;
 		    overflow-x: hidden;
 		    overflow-y: auto;
-		    -webkit-perspective: 1px;
+		   -webkit-perspective: 1px;
 		    perspective: 1px;
-
+		    -webkit-perspective-origin-x: 100%;
+			perspective-origin-x: 100%;
 		  }
 
 		.parallax_allcontent {
@@ -48,6 +49,10 @@ body{
 		    right: 0;
 		    bottom: 0;
 		    left:70px;
+		     -webkit-transform-origin-x: 100%;
+		    transform-origin-x: 100%;
+		    -webkit-transform-style: preserve-3d;
+		    transform-style: preserve-3d;
 		  }
 
 		 .parallax_proloog {
